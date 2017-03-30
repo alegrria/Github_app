@@ -19,8 +19,7 @@ Prerequisites
 Goals
 -----
 
-- Create a rails application within this repo and commit as usual
-- Update the README inside with information on how to work with it if you think that some information might be helpful
+- Clone this repository. Use it as your working directory.
 - Create a new Rails 4 app
 - Request the GitHub API to show [XING's public repositories][1] and parse the JSON response
 - Display a list of repositories with pagination, each entry showing
