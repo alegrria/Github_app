@@ -24,6 +24,7 @@ Goals
 - Display a list of public repositories of that user/org with pagination, each entry showing at least
     - name of repository
     - description
+- Please don't use the github gem
 
 Bonus Goals
 ------------
