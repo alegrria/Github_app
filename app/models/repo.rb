@@ -1,10 +1,8 @@
 class Repo < ApplicationRecord
-  
-  @name = name
-  @description = description
-
+ 
   def self.search
-  	render :html "name"
-  	render :html "description"
+ 	if search
+      where('search for user name, return list of pulic repositories with short description')
+    end
   end
 end

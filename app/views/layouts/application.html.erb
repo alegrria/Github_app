@@ -12,10 +12,11 @@
     <%= yield %>
   </body>
 </html>
+
 <div class="index_search">
-  <%= form_tag(pins_path, :method => "get", class: "navbar-form", id: "search-form") do %>
+  <%= form_tag(repo_path, :method => "get", class: "navbar-form", id: "search-form") do %>
   <div class="input-append">
-    <%= text_field_tag :search, params[:search], class: "span2  form-control", placeholder: "Search Reviews" %>
+    <%= text_field_tag :search, params[:search], class: "span2  form-control", placeholder: "Search GitHub" %>
 
     <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
   </div> 
