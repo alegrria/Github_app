@@ -1,4 +1,3 @@
-=======
 XING Rails Coding Challenge
 =========================
 
