@@ -2,3 +2,13 @@
   <%= text_field_tag :name, params[:name], placeholder: "Search GitHub" %>
   <%= submit_tag("Search") %>
 <% end %>
+
+<% if @repos.present? %>
+<ul>
+<% @repos.each do |repo| %>
+<li>
+ <%= repo["name"] %> - <%= repo["description"] %>
+ </li>
+<% end %>
+</ul>
+<% end %>

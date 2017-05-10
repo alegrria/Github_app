@@ -4,7 +4,7 @@ class RepoController < ApplicationController
   end
 
   def search
-    response = HTTParty.get "https://api.github.com/users/#{params[:name]}/repos?type=owner"
+    @repos = HTTParty.get("https://api.github.com/users/#{params[:name]}/repos?type=owner").parsed_response
     render :index
   end
 end
