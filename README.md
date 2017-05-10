@@ -1,4 +1,4 @@
-t=======
+=======
 XING Rails Coding Challenge
 =========================
 
@@ -33,5 +33,3 @@ Bonus Goals
 - Provide a basic set of meaningful tests
 - Implement pagination without using a gem
 - Add a sorting dropdown for the list of repositories
-
-  [1]: https://api.github.com/users/xing/>>>>>> 6a2e78b8feae6fbfa5b1bf6cf518ea784b612162
